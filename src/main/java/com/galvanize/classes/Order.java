@@ -1,4 +1,4 @@
-package com.galvanize;
+package com.galvanize.classes;
 
 import java.time.LocalDateTime;
 

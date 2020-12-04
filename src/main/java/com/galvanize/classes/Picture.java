@@ -1,4 +1,4 @@
-package com.galvanize;
+package com.galvanize.classes;
 
 public class Picture {
     private boolean framed;
@@ -17,7 +17,7 @@ public class Picture {
 
     public static void main(String[] args) {
         Picture pic = new Picture(10, 20);
-        System.out.println(String.format("%d x %d Picture, framed: %b", pic.getHeight(), pic.getWidth(), pic.isFramed()));
+        System.out.printf("%d x %d Picture, framed: %b%n", pic.getHeight(), pic.getWidth(), pic.isFramed());
     }
 
     public int getHeight() {
